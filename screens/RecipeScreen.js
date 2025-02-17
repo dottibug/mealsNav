@@ -7,10 +7,6 @@ import List from '../components/List';
 export default function RecipeScreen({ route }) {
   const { meal } = route.params;
 
-  function renderIngredient({ item }) {
-    return <Ingredient ingredient={item} />;
-  }
-
   return (
     <SafeAreaView
       style={[appStyles.fullHeight, appStyles.mainContainer]}

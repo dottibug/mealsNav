@@ -6,6 +6,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import MealsScreen from './screens/MealsScreen';
 import RecipeScreen from './screens/RecipeScreen';
 import { colors } from './styles/colors';
+import { Text } from 'react-native';
 
 const Stack = createNativeStackNavigator();
 
@@ -38,7 +39,9 @@ export default function App() {
             <Stack.Screen
               name="RecipeScreen"
               component={RecipeScreen}
-              options={({ route }) => ({ title: route.params.meal.title })}
+              options={({ route }) => ({
+                title: route.params.meal.title,
+              })}
             />
           </Stack.Navigator>
         </NavigationContainer>
