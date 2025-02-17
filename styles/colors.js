@@ -1,0 +1,17 @@
+export const colors = {
+  white: '#fff',
+  jet: '#181A1F',
+  platinum: '#D8DBE2',
+  powderBlue: '#A9BCD0',
+  moonstone: '#58A4B0',
+  melon: '#DAA49A',
+  charcoal: '#373F51',
+  cambridge: '#71A796',
+  violet: '#9D71A7',
+  flax: '#EBE285',
+  jordyBlue: '#85B4EB',
+  tangerine: '#EBA785',
+  pink: '#E6A8D5',
+  celadon: '#96E4B1',
+  rose: '#D7768C',
+};
